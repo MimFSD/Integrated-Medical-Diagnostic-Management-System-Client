@@ -53,6 +53,5 @@ const PromotionSection = () => {
             </div>
         </section>
     );
-};
-
+};               
 export default PromotionSection;
