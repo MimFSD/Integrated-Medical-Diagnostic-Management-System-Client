@@ -9,7 +9,7 @@ import Swal from 'sweetalert2'
 import { jsPDF } from "jspdf";
 import useAxiosSecure from "../../../hooks/useAxiosSecure";
 import { Helmet } from "react-helmet-async";
-
+           
 const AllUsers = () => {
     const axiosSecure = useAxiosSecure();
 
