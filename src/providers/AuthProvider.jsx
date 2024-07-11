@@ -27,7 +27,6 @@ const AuthProvider = ({ children }) => {
         setLoading(true)
         return signInWithPopup(auth, googleProvider)
     }
-
     const githubLogin = () => {
         setLoading(true)
         return signInWithPopup(auth, githubProvider)
@@ -44,7 +43,6 @@ const AuthProvider = ({ children }) => {
             photoURL: image
         })
     }
-
     useEffect(() => {
         const unSubscribe = onAuthStateChanged(auth, currentUser => {
             setUser(currentUser)
