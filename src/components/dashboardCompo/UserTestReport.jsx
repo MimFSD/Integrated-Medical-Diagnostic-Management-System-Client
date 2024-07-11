@@ -14,7 +14,6 @@ const UserTestReport = () => {
             return res.data
         }
     })
-
     const handleDownload = (reportUrl) => {
         if (reportUrl) {
             const link = document.createElement('a');
@@ -27,7 +26,7 @@ const UserTestReport = () => {
             console.error('No report URL available to download');
         }
     }
-
+                 
     if (isLoading) {
         return <LoadingSpinner></LoadingSpinner>
     }
