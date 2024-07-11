@@ -9,7 +9,6 @@ import { useQuery } from "@tanstack/react-query";
 import { useParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import LoadingSpinner from "../../shared/LoadingSpinner";
-
 const UpdateTest = () => {
     const {id} = useParams();
     const axiosPublic = useAxiosPublic();
