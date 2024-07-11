@@ -8,7 +8,7 @@ import useAxiosPublic from "../hooks/useAxiosPublic";
 import tipImg from "../../public/tips.png"
 import preventImg from "../../public/quarantine.png"
 import testImg from "../../public/tests.png"
-
+                     
 const Recommendation = () => {
     const axiosPublic = useAxiosPublic();
     const { data: tips = {}, isLoading } = useQuery({
