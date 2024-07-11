@@ -5,7 +5,7 @@ import Swal from 'sweetalert2'
 import LoadingSpinner from "../../shared/LoadingSpinner";
 import useAxiosSecure from "../../../hooks/useAxiosSecure";
 import { Helmet } from "react-helmet-async";
-
+      
 const AllBanners = () => {
     const axiosSecure = useAxiosSecure();
     const { data: banners = [], isLoading, refetch } = useQuery({
@@ -13,7 +13,7 @@ const AllBanners = () => {
         queryFn: async () => {
             const res = await axiosSecure.get('/banners')
             return res.data
-        },
+        },     
         refetchOnWindowFocus: false,
     })
 
