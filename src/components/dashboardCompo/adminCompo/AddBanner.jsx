@@ -2,10 +2,10 @@ import "react-datepicker/dist/react-datepicker.css";
 import Swal from 'sweetalert2'
 import useAxiosSecure from "../../../hooks/useAxiosSecure";
 import { Helmet } from "react-helmet-async";
-
+  
 const AddBanner = () => {
     const axiosSecure = useAxiosSecure();
-
+       
     const handleAdd = async (e) => {
         e.preventDefault();
         const form = e.target;
