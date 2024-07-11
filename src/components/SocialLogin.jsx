@@ -6,14 +6,14 @@ import { useContext } from "react";
 import { AuthContext } from "../providers/AuthProvider";
 import { toast } from "react-toastify";
 import useAxiosPublic from "../hooks/useAxiosPublic";
-
+             
 const SocialLogin = () => {
     const { googleLogin, githubLogin, facebookLogin } = useContext(AuthContext);
     const navigate = useNavigate();
     const location = useLocation();
     const from = location?.state || '/';
     const axiosPublic = useAxiosPublic()
-
+                  
     const handleSocialLogin = (socialProvider) => {
         socialProvider()
             .then(async (result) => {
