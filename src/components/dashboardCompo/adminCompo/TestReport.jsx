@@ -6,7 +6,6 @@ import { toast } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 import Swal from 'sweetalert2'
 import { Helmet } from "react-helmet-async";
-
 const TestReport = () => {
     const { id } = useParams();
     const axiosSecure = useAxiosSecure();
@@ -17,7 +16,6 @@ const TestReport = () => {
             return res.data
         }
     })
-
     const handleReport = async (e) => {
         e.preventDefault();
         const reportUrl = e.target.report.value;
