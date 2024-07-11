@@ -15,7 +15,6 @@ const Statistics = () => {
         },
         refetchOnWindowFocus: false,
     })
-
     const { data: ratios = [], isLoading: ratioLoading } = useQuery({
         queryKey: ['ratios'],
         queryFn: async () => {
@@ -28,7 +27,6 @@ const Statistics = () => {
     if (statLoading || ratioLoading) {
         return <LoadingSpinner></LoadingSpinner>
     }
-
     return (
         <div>
             <Helmet>
