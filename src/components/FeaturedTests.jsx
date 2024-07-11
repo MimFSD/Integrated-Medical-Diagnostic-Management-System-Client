@@ -2,8 +2,7 @@ import { useQuery } from "@tanstack/react-query";
 import useAxiosPublic from "../hooks/useAxiosPublic";
 import { Link } from "react-router-dom";
 import LoadingSpinner from "./shared/LoadingSpinner";
-
-
+                          
 const FeaturedTests = () => {
     const axiosPublic = useAxiosPublic();
     const { data: featured = [], isLoading } = useQuery({
