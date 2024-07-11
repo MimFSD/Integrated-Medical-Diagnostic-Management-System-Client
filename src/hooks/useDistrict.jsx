@@ -8,8 +8,7 @@ const useDistrict = () => {
         queryKey: ['districts'],
         queryFn: async () => {
             const res = await axiosPublic.get('/districts')
-            return res.data
-            
+            return res.data 
         }
     })
     return [districtData, distLoading]

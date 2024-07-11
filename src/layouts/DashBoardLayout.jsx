@@ -37,7 +37,7 @@ const DashBoardLayout = () => {
                     show ? <IoIosCloseCircleOutline /> :
                         <IoMdMenu />
                 }
-
+                            
             </div>
             <div className={show ?
                 'min-w-44 fixed md:hidden translate-y-12 bg-[#47CCC8] text-[#2D3663] pt-4 pb-6 px-4 transition-all duration-200 z-10'
