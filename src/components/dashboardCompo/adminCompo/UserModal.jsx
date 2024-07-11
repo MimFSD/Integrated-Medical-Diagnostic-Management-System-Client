@@ -25,7 +25,7 @@ const UserModal = ({ data }) => {
         </div>
     );
 };
-
+             
 UserModal.propTypes = {
     data: PropTypes.object,
     name: PropTypes.string,
