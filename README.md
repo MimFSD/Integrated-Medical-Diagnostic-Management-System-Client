@@ -1,8 +1,5 @@
 # Website Name
-VitalCare-diagnostic-center-management-system
-
-# Admin username
-Afia Rahman
+VitalCare- Diagnostic-Management-System
 
 # Admin email
 afia@rahman.com
@@ -11,7 +8,7 @@ afia@rahman.com
 123456Aa
 
 # Live Site URL
-https://diagnostic-app-auth.web.app/
+ [Integrated Medical Diagnostic Management System](https://diagnostic-app-auth.web.app/ )
 
 # Project Overview
 VitalCare is a comprehensive diagnostic center website offering a wide range of medical tests and services. The platform provides users with easy access to test booking, personalized health recommendations, and expert insights. Features include detailed test descriptions, online reports, subscription packages, and health-related blog posts etc.
