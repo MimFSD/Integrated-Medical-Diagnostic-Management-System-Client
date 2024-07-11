@@ -34,8 +34,7 @@ const Profile = () => {
             </div>
         </div>
     );
-};
-
+};    
 Profile.propTypes = {
     data: PropTypes.object,
     name: PropTypes.string,
