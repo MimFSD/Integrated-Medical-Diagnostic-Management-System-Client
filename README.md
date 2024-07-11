@@ -45,7 +45,7 @@ VitalCare is a comprehensive diagnostic center website offering a wide range of 
 # Run the Project
 If you want to clone and locally run this project, these are the steps you need to follow (you will need [node](https://nodejs.org/en) installed):
 ```
-git clone https://github.com/afiagithub/VitalCare-client.git
+git clone url
 cd VitalCare-client
 npm install
 npm run dev
