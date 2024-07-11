@@ -1,6 +1,13 @@
 # Website Name
 VitalCare- Diagnostic-Management-System
+<!-- Admin username
+Afia Rahman
 
+Admin email
+afia@rahman.com
+
+Admin password
+123456Aa -->
 # Admin email
 afia@rahman.com
 
