@@ -32,7 +32,7 @@ const SingleDoctorCard = ({ doc }) => {
         </div>
     );
 };
-
+                          
 SingleDoctorCard.propTypes = {
     doc: PropTypes.object,
     name: PropTypes.string,
