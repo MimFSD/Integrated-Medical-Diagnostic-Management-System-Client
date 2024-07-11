@@ -42,7 +42,7 @@ const Appointments = () => {
             }
         });
     }
-
+                  
     if (isLoading) {
         return <LoadingSpinner></LoadingSpinner>
     }
