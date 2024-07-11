@@ -1,0 +1,17 @@
+.navbar{
+    z-index: 10;
+    position: relative;
+}
+
+.group{
+    z-index: 5;
+    position: relative;
+}
+
+.slider h1{
+    line-height: 1.5em;
+}
+
+.slider{
+    height: 80vh;
+}
