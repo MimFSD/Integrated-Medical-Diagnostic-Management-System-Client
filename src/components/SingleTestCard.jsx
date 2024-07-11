@@ -20,8 +20,7 @@ const SingleTestCard = ({ test }) => {
             </div>
         </div>
     );
-};
-
+};                       
 SingleTestCard.propTypes = {
     test: PropTypes.object,
     date: PropTypes.string,
