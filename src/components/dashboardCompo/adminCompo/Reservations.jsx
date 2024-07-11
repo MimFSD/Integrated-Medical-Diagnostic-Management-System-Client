@@ -7,7 +7,6 @@ import Swal from 'sweetalert2'
 import LoadingSpinner from "../../shared/LoadingSpinner";
 import { useState } from "react";
 import { Helmet } from "react-helmet-async";
-
 const Reservations = () => {
     const { id } = useParams();
     const axiosSecure = useAxiosSecure();
@@ -57,7 +56,6 @@ const Reservations = () => {
     if (isLoading) {
         return <LoadingSpinner></LoadingSpinner>
     }
-
     return (
         <div className="z-0 mt-10 px-10 md:px-5">
             <Helmet>
