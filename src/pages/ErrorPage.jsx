@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { TbError404 } from "react-icons/tb";
-
+    
 const ErrorPage = () => {
     const navigate = useNavigate();
     return (
@@ -25,5 +25,4 @@ const ErrorPage = () => {
         </div>
     );
 };
-
 export default ErrorPage;
