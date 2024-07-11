@@ -4,7 +4,6 @@ import SingleDoctorCard from "../components/SingleDoctorCard";
 import LoadingSpinner from "../components/shared/LoadingSpinner";
 import { Helmet } from "react-helmet-async";
 
-
 const DoctorsList = () => {
     const axiosPublic = useAxiosPublic();
     const { data: doctors = [], isLoading } = useQuery({
