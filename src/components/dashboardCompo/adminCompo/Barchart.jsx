@@ -9,16 +9,14 @@ const Barchart = ({stats}) => {
         C${x + width / 2},${y + height / 3} ${x + (2 * width) / 3},${y + height} ${x + width}, ${y + height}
         Z`;
     };
-
     const TriangleBar = (props) => {
         const { fill, x, y, width, height } = props;
 
         return <path d={getPath(x, y, width, height)} stroke="none" fill={fill} />;
     };
-
     const barData = stats.map(data => {
         return {name: data.testTitle, booking: data.totalBookings}
-    })
+    })   
     return (
         <div>
             <h1 className="text-2xl font-bold font-ubuntu text-center mb-10">Most Booked Tests</h1>
