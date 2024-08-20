@@ -1,19 +1,19 @@
-/*  
+
 # Website Name
 VitalCare- Diagnostic-Management-System
-<!-- Admin username
+ <!-- Admin username
 Afia Rahman
 
 Admin email
 afia@rahman.com
 
 Admin password
-123456Aa -->
+123456Aa 
 # Admin email
 afia@rahman.com
 
 # Admin password
-123456Aa */
+123456Aa  -->
 # Live Site URL
  [Integrated Medical Diagnostic Management System](https://diagnostic-app-auth.web.app/ )
 
