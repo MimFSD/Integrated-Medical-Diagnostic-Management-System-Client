@@ -1,4 +1,18 @@
+# Website Name
+VitalCare- Diagnostic-Management-System
+<!-- Admin username
+Afia Rahman
 
+Admin email
+afia@rahman.com
+
+Admin password
+123456Aa -->
+# Admin email
+afia@rahman.com
+
+# Admin password
+123456Aa
 
 # Live Site URL
  [Integrated Medical Diagnostic Management System](https://diagnostic-app-auth.web.app/ )
@@ -33,11 +47,4 @@ VitalCare is a comprehensive diagnostic center website offering a wide range of 
 * React-tooltip
 * React helmet async
 
-<br>
 
-# Steps to clone the project
-
-- Clone the repository: Download the project repository from GitHub to your local machine.
-- Navigate into the project directory: Change your directory to the project's root folder.
-- Install dependencies: Install all the required dependencies and packages specified in the project.
-- Run the project: Start the application to run it on your local machine.
