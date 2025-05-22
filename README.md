@@ -30,7 +30,7 @@ VitalCare is a comprehensive diagnostic center website offering a wide range of 
 * An user can book a test and pay for that booking through stripe. Users can download their test reports and also can see their upcoming appointments.
 <br>
 
-# Key Technology
+/* # Key Technology
 * MERN
 * Firebase
 * Stripe
@@ -45,6 +45,6 @@ VitalCare is a comprehensive diagnostic center website offering a wide range of 
 * React Axios
 * jsPDF
 * React-tooltip
-* React helmet async
+* React helmet async */
 
 
